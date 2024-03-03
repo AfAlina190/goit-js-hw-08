@@ -1,0 +1,20 @@
+img{
+    max-width: 30em;
+
+}
+
+
+.gallery{
+    display: grid;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-template-columns:max-content max-content max-content;
+    justify-content: center;
+}
+
+.gallery-item{
+    border-radius: .8rem;
+    overflow: hidden;
+    transition: all .3s ease-in-out;    
+}
+
